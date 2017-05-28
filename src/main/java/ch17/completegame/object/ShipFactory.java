@@ -49,7 +49,7 @@ public class ShipFactory {
 
 	private BufferedImage loadSprite(String path) {
 		InputStream stream = ResourceLoader.load(
-			ShipFactory.class, "res/assets/images/" + path, "/images/" + path
+			ShipFactory.class, "src/main/java/ch17/res/assets/images/" + path, "/images/" + path
 		);
 		try {
 			return ImageIO.read(stream);

@@ -46,7 +46,7 @@ public class AsteroidFactory {
 		asteroid.setPolygon(polygon.toArray(new Vector2f[0]));
 		BufferedImage bi = null;
 		InputStream stream = ResourceLoader.load(
-			AsteroidFactory.class,"res/assets/images/" + image, "/images/" + image
+			AsteroidFactory.class,"src/main/java/ch17/res/assets/images/" + image, "/images/" + image
 		);
 		try {
 			bi = ImageIO.read(stream);

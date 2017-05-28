@@ -42,7 +42,7 @@ public class GameLoading extends State {
 			@Override
 			public Boolean call() throws Exception {
 				InputStream stream = ResourceLoader.load( GameLoading.class,
-						"res/assets/images/space_background_600x600.png",
+						"src/main/java/ch17/res/assets/images/space_background_600x600.png",
 						"/images/space_background_600x600.png" );
 				BufferedImage image = ImageIO.read( stream );
 				Vector2f worldTopLeft = new Vector2f(
@@ -176,14 +176,14 @@ public class GameLoading extends State {
 	private Element loadXML(String path) throws IOException, SAXException,
 			ParserConfigurationException {
 		InputStream model = ResourceLoader.load(GameLoading.class,
-				"res/assets/xml/" + path, "/xml/" + path);
+				"src/main/java/ch17/res/assets/xml/" + path, "/xml/" + path);
 		Document document = XMLUtility.parseDocument(model);
 		return document.getDocumentElement();
 	}
 
 	private byte[] loadSound(String path) {
 		InputStream in = ResourceLoader.load(GameLoading.class,
-				"res/assets/sound/" + path, "/sound/" + path);
+				"src/main/java/ch17/res/assets/sound/" + path, "/sound/" + path);
 		return readBytes(in);
 	}
 
