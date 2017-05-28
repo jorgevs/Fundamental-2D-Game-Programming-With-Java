@@ -3,3 +3,6 @@
 .metadata
 **/dist
 .idea
+.classpath
+.project
+testing.txt

@@ -15,8 +15,8 @@
    <target name="dist" depends="clean, init" description="generate the distribution" >
    
    <!-- Create the distribution directory -->
-	<copy todir="${dist}/section-one/CH01">
-		<fileset dir="${basedir}/CH01">
+	<copy todir="${dist}/section-one/ch01">
+		<fileset dir="${basedir}/ch01">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -25,8 +25,8 @@
 		</fileset>
 	</copy>
 	
-	<copy todir="${dist}/section-one/CH02">
-		<fileset dir="${basedir}/CH02">
+	<copy todir="${dist}/section-one/ch02">
+		<fileset dir="${basedir}/ch02">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -34,8 +34,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-one/CH03">
-		<fileset dir="${basedir}/CH03">
+	<copy todir="${dist}/section-one/ch03">
+		<fileset dir="${basedir}/ch03">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -43,8 +43,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-one/CH04">
-		<fileset dir="${basedir}/CH04">
+	<copy todir="${dist}/section-one/ch04">
+		<fileset dir="${basedir}/ch04">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -52,8 +52,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-one/CH05">
-		<fileset dir="${basedir}/CH05">
+	<copy todir="${dist}/section-one/ch05">
+		<fileset dir="${basedir}/ch05">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -61,8 +61,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-one/CH06">
-		<fileset dir="${basedir}/CH06">
+	<copy todir="${dist}/section-one/ch06">
+		<fileset dir="${basedir}/ch06">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -70,8 +70,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-one/CH07">
-		<fileset dir="${basedir}/CH07">
+	<copy todir="${dist}/section-one/ch07">
+		<fileset dir="${basedir}/ch07">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -79,8 +79,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-one/CH08">
-		<fileset dir="${basedir}/CH08">
+	<copy todir="${dist}/section-one/ch08">
+		<fileset dir="${basedir}/ch08">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -96,8 +96,8 @@
 	
 	<delete dir="${dist}/section-one"/>	
 	
-	<copy todir="${dist}/section-two/CH09">
-		<fileset dir="${basedir}/CH09">
+	<copy todir="${dist}/section-two/ch09">
+		<fileset dir="${basedir}/ch09">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -106,8 +106,8 @@
 		</fileset>
 	</copy>
 	
-	<copy todir="${dist}/section-two/CH10">
-		<fileset dir="${basedir}/CH10">
+	<copy todir="${dist}/section-two/ch10">
+		<fileset dir="${basedir}/ch10">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -115,8 +115,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-two/CH11">
-		<fileset dir="${basedir}/CH11">
+	<copy todir="${dist}/section-two/ch11">
+		<fileset dir="${basedir}/ch11">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -124,8 +124,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-two/CH12">
-		<fileset dir="${basedir}/CH12">
+	<copy todir="${dist}/section-two/ch12">
+		<fileset dir="${basedir}/ch12">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -133,8 +133,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-two/CH13">
-		<fileset dir="${basedir}/CH13">
+	<copy todir="${dist}/section-two/ch13">
+		<fileset dir="${basedir}/ch13">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -142,8 +142,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-two/CH14">
-		<fileset dir="${basedir}/CH14">
+	<copy todir="${dist}/section-two/ch14">
+		<fileset dir="${basedir}/ch14">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -151,8 +151,8 @@
 			<exclude name="**/bin/**"/>
 		</fileset>
 	</copy>
-	<copy todir="${dist}/section-two/CH15">
-		<fileset dir="${basedir}/CH15">
+	<copy todir="${dist}/section-two/ch15">
+		<fileset dir="${basedir}/ch15">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings"/>
@@ -168,8 +168,8 @@
 	
 	<delete dir="${dist}/section-two"/>	
 	
-	<copy todir="${dist}/section-three/CH16">
-		<fileset dir="${basedir}/CH16">
+	<copy todir="${dist}/section-three/ch16">
+		<fileset dir="${basedir}/ch16">
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
 			<exclude name="**/.settings/**"/>
@@ -178,8 +178,8 @@
 		</fileset>
 	</copy>
 	
-	<copy todir="${dist}/section-three/CH17">
-		<fileset dir="${basedir}/CH17">
+	<copy todir="${dist}/section-three/ch17">
+		<fileset dir="${basedir}/ch17">
 			<exclude name="**/*.jar"/>
 			<exclude name="**/.classpath"/>
 			<exclude name="**/.project"/>
